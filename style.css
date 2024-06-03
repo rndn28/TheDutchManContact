@@ -1,0 +1,91 @@
+body {
+  background-color: #ffe6c7;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15% 85%;
+}
+
+.amsterdam {
+  max-width: 100%;
+}
+
+.raphael {
+  max-width: 50vw;
+  border-radius: 15%;
+}
+
+.picture-2 {
+  grid-area: 1 / 1 / 3 / 2;
+  margin: 1%;
+}
+
+.about {
+  display: flex;
+  /* direction: rtl; */
+  grid-area: 1 / 2 / 2 / 3;
+  justify-content: center;
+}
+
+.about-text {
+  grid-area: 2 / 2 / 3 / 3;
+  padding: 5%;
+}
+
+.about-text p {
+  direction: rtl;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 2rem;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.facebook {
+  background-color: #1877f2;
+}
+
+.instagram {
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.chat {
+  background-color: #25d366;
+}
+
+.group {
+  background-color: #128c7e;
+}
+
+.phone {
+  background-color: lightgray;
+}
